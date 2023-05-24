@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DEngine">
+      <UniqueIdentifier>{9d5c2b58-d7e2-4c39-a0a1-b79d83a2b550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{5da86866-80b7-498c-9d58-6da993f902d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Transform">
+      <UniqueIdentifier>{98ee39fa-38cf-468a-bec4-aae52b871ea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sprite">
+      <UniqueIdentifier>{f031b946-21c1-4917-a75b-d4a3e43bdd5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Time">
+      <UniqueIdentifier>{ec24d20d-812a-467b-87e7-68bc6028e57f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{1b634bf0-4a6a-410d-8762-06f16a4ad9f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animatior">
+      <UniqueIdentifier>{11450e2d-eb98-4833-8ef3-288d9aca0102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Shape">
+      <UniqueIdentifier>{01c38bad-143a-490c-8d78-dfcd74c806b8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DesireD2D.h">
+      <Filter>2DEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="ICollision.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Shape.h">
+      <Filter>Object\Shape</Filter>
+    </ClInclude>
+    <ClInclude Include="HBVector2.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="HBSprite.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageLoader.h">
+      <Filter>Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="HBTime.h">
+      <Filter>Time</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Animatior</Filter>
+    </ClInclude>
+    <ClInclude Include="TamplateSingleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DesireD2D.cpp">
+      <Filter>2DEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollision.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Shape.cpp">
+      <Filter>Object\Shape</Filter>
+    </ClCompile>
+    <ClCompile Include="HBVector2.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="HBSprite.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageLoader.cpp">
+      <Filter>Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="HBTime.cpp">
+      <Filter>Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animatior</Filter>
+    </ClCompile>
+    <ClCompile Include="구버전함수들.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

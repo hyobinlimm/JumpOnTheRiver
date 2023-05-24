@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\PCH">
+      <UniqueIdentifier>{328beb11-6644-4607-89f6-00d3edea3789}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Main">
+      <UniqueIdentifier>{996891bf-dcc7-4b70-93fc-5044f6d7ad67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapTool">
+      <UniqueIdentifier>{b704cfc7-cb6e-4515-ac26-be27d8b0325b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View">
+      <UniqueIdentifier>{06e86046-0c6f-44ac-b1c3-51a1ca190c92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Left">
+      <UniqueIdentifier>{36d43502-9d3e-4cc4-8593-e81c1ba375aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\View\Right">
+      <UniqueIdentifier>{8bc2ff3b-dfd1-4bfb-a364-a49bfa5fc4fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Action">
+      <UniqueIdentifier>{a6a0b6ee-52d6-45a8-b55e-fcd0104487c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ObjectInfo">
+      <UniqueIdentifier>{47d5bb0e-a8ac-43c4-9cc8-db9f1f731df3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Source Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTool.h">
+      <Filter>Source Files\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolDoc.h">
+      <Filter>Source Files\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="MapToolView.h">
+      <Filter>Source Files\MapTool</Filter>
+    </ClInclude>
+    <ClInclude Include="RightView.h">
+      <Filter>Source Files\View\Right</Filter>
+    </ClInclude>
+    <ClInclude Include="LeftView.h">
+      <Filter>Source Files\View\Left</Filter>
+    </ClInclude>
+    <ClInclude Include="Action.h">
+      <Filter>Source Files\Action</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Source Files\ObjectInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Source Files\PCH</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files\PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Source Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolView.cpp">
+      <Filter>Source Files\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapToolDoc.cpp">
+      <Filter>Source Files\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTool.cpp">
+      <Filter>Source Files\MapTool</Filter>
+    </ClCompile>
+    <ClCompile Include="RightView.cpp">
+      <Filter>Source Files\View\Right</Filter>
+    </ClCompile>
+    <ClCompile Include="LeftView.cpp">
+      <Filter>Source Files\View\Left</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>Source Files\Action</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfo.cpp">
+      <Filter>Source Files\ObjectInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MapTool.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\MapToolDoc.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\MapTool.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MapTool.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

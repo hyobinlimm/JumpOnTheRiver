@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{c1adc476-bf9a-40e6-9a27-26d2c9929dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{1f25f3ed-a10f-45b8-ae8a-a9c3bc6d87e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{bb958ba0-3e9e-48ea-ae19-8c1873b3240c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameProcess">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{549390d9-2d10-49f2-a0b6-abb7a545abbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Define">
+      <UniqueIdentifier>{661d3732-5e1e-4c9b-be77-21b6a9a81140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{f7082364-61f5-4c66-aa91-d893ebb556f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SpriteManager">
+      <UniqueIdentifier>{a3875eaa-7227-4617-bfb1-04a33df03aed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Scenes">
+      <UniqueIdentifier>{5a55f08c-1840-414b-aa9c-b80394c0f37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Camera">
+      <UniqueIdentifier>{79ea6982-89c9-46c9-87aa-4ba74f11e12e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Position2D.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigger.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowsProject1.h">
+      <Filter>WinMain</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProcess.h">
+      <Filter>GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="CInput.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Define</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>SpriteManager</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameScene.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Object\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGround.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectInfo.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroCredit.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroEnding1.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroCutScene1.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroCutScene3.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroCutScene2.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroEnding3.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="OutroEnding2.h">
+      <Filter>Scene\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SmartInput.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GameProcess.cpp">
+      <Filter>GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Trigger.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowsProject1.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+    <ClCompile Include="CInput.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>SpriteManager</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameScene.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Object\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGround.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectInfo.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Define.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroCredit.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroEnding1.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroCutScene1.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroCutScene2.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroCutScene3.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroEnding2.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="OutroEnding3.cpp">
+      <Filter>Scene\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SmartInput.cpp">
+      <Filter>Define</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="JumpOnTheRiver.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="JumpOnTheRiver.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
